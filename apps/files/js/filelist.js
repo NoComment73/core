@@ -501,7 +501,6 @@ var FileList={
 			};
 			element.on('click', {a: null, elem: td, actionFunc: actions["Rename"]}, actionHandler);
 			$(img).appendTo(element);
-			td.find('a.name>span.nametext').append(element);
 			return false;
 		});
 		input.keyup(function(event) {
